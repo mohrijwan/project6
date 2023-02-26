@@ -1,0 +1,76 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body {
+    background-color: rgb(200, 208, 215);
+    width: 100vw;
+        height: 100vh;
+}
+.mainbar{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.left-section{
+margin-left: 90px;
+margin-top: 100px;
+background-repeat: no-repeat;
+    background-image: url(./asets/stethoscope.png);
+    background-size: 550px;
+    border-image: fill;
+    
+}
+nav{
+display: flex;
+justify-content: space-between;
+
+
+}
+ul{
+    display: flex;
+    gap: 90px;
+    margin-right: 200px;
+    list-style: none;
+    font-size: 16px;
+}
+.bottom{
+    margin-left: 550px
+}
+.button{
+    padding: 20px 50px 20px 50px;
+    border-radius: 50px;
+    background-color: green;
+    font-size: 14px;
+    color: aliceblue;
+    break-inside: auto;
+}
+.button:hover{
+    color: rgb(13, 13, 12);
+    background-color: aliceblue;
+    font-size: 20px;
+}
+.mouse{
+    margin-left: 600px;
+}
+.right-section{
+    background-image: url(./asets/greenBox.png);
+    background-repeat: no-repeat;
+    margin-right: 200px;
+    background-position: 80px;
+    background-size: 750px;
+    
+}
+.doctorimg{
+    width: 900px;
+    height: 750px;
+    /* margin-right: 100px; */
+    /* margin-left: 100px; */
+    /* size-adjust: 100px;
+    box-sizing: border-box; */
+   
+   
+
+}
